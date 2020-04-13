@@ -1,0 +1,297 @@
+/*favourites Page*/
+body {
+    background-color: white;
+  }
+  
+  header {
+    background: whitesmoke;
+    /* box-shadow: 0 0 5px #333; */
+    height: 100px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1em;
+    display: none;
+  }
+  
+  section {
+    display: flex;
+    flex-grow: 2;
+    background: white;
+    padding: 0em;
+    margin: 0;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+  .image {
+    border-radius: 10px;
+    background-image: url("kugu2m1504735473.jpg");
+    background-position: left top;
+    width: 350px;
+    height: 550px;
+    margin: 40px;
+    position: relative;
+        top: 30px;
+        right: -17px;
+  }
+  
+  h2 {
+    color : white;
+    padding: 30px;
+    position: relative;
+      right: -2px;
+      top: 18px;
+  }
+  
+  .favourite {
+    width: 20px;
+    height: 20px;
+    position: relative;
+      left: -5px;
+      top: -10px;
+  }
+  
+  h3 {
+    position: relative;
+      left: 29px;
+      top: 0px;
+  }
+  
+  .card-body {
+    border-radius: 25px;
+    background:whitesmoke;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 100px;
+    position: absolute;
+        bottom: -95px; /*desktop*/
+        left: -27px;  /*desktop*/
+  
+  }
+  
+  /*styles for Results page*/
+  body {
+    background-color: white;
+  }
+
+  
+  .imageResults {
+    border-radius: 10px;
+    background-image: url("kugu2m1504735473.jpg");
+    background-position: left top;
+    width: 150px; /*Desktop*/
+    height: 150px; /*Desktop*/
+    margin: 30px;
+    position: relative;
+      top: 38px; /*Desktop*/
+      right: -35px; /*Desktop*/
+  }
+ 
+  .favourite {
+    width: 20px;
+    height: 20px;
+    position: relative;
+      left: -5px;
+      top: -10px;
+  }
+  
+  h5 {
+    position: relative;
+      left: 29px;
+      top: 0px;
+  }
+
+  .imageResults:hover .hidden {
+    display: flex;
+    left: 150px;
+    padding-left: 97px;
+    top: 0px;
+  }
+
+  
+  .drinkInfobox {
+    border-radius: 25px;
+    background: whitesmoke;
+    margin-bottom: 10px;
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+  }
+
+ .background {
+  border-radius: 25px;
+  height: 437px;
+  width: 543px;
+  margin-left: 83px;
+
+}
+
+  .hidden {
+    position: absolute;
+    display: none
+  }
+  
+  #button1 {
+    background-color: pink;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    position: relative;
+      left: 19px;
+      top: 310px;
+  }
+  
+  #button2 {
+    background-color: pink;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    position: relative;
+      left: 109px;
+      top: 308px;
+  }
+
+  /*styles for Search page*/
+  h4 {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    left: 82px;
+  }
+
+  #background {
+    background-image: url("kugu2m1504735473.jpg");
+  }
+
+  label {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .container {
+    display: flex;
+  }
+
+  .searchText {
+    color: black;
+  }
+
+  /*.searchbox {
+    justify-content:center;
+    border-radius: 25px;
+    background: whitesmoke;
+    margin-bottom: 10px;
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+ 
+  }*/
+
+  #searchbox1 {
+    justify-content:center;
+    border-radius: 25px;
+    background: whitesmoke;
+    margin-bottom: 10px;
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    left: 115px;
+    top: 59px;
+  }
+
+  .searchbox2 {
+    justify-content:center;
+    border-radius: 25px;
+    background: whitesmoke;
+    margin-bottom: 10px;
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    left: 216px;
+    top: 59px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    overflow-x: scroll;
+  }
+
+  .searchbox3 {
+    justify-content:center;
+    border-radius: 25px;
+    background: whitesmoke;
+    margin-bottom: 10px;
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    left: 316px;
+    top: 59px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    overflow-x: scroll;
+  }
+
+  .btnStyle {
+    background-color: pink;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px ;
+    margin-bottom: 20px;
+  }
+
+  .btnStyle3 {
+    position: relative;
+    left: 50px;
+    bottom: 62px;
+  }
+
+  .btnStyle4 {
+    position: relative;
+    left: 74px;
+    bottom: 62px;
+  }
+
+  .searchimageResults {
+    max-width: 100%;
+    border-radius: 10px;
+    background-position: left top;
+    width: 300px; /*Desktop*/
+    height: 300px; /*Desktop*/
+    margin: 30px;
+    position: relative;
+    top: -27px; /*Desktop*/
+    right: -17px; /*Desktop*/
+  }
+
+  
+  
+  
+  

@@ -1,0 +1,287 @@
+/*styles for Favourites page*/
+body {
+  background-color: white;
+}
+
+header {
+  background: whitesmoke;
+  /* box-shadow: 0 0 5px #333; */
+  height: 100px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1em;
+  display: none;
+}
+
+section {
+  flex-grow: 2;
+  background: white;
+  padding: 0em;
+  margin: 0;
+  align-content: center;
+}
+
+.image {
+  border-radius: 10px;
+  background-image: url("kugu2m1504735473.jpg");
+  background-position: left top;
+  width: 350px;
+  height: 550px;
+  margin: 30px;
+  position: relative;
+    top: -46px;
+    right: -19px
+}
+
+h2 {
+  color : white;
+  padding: 30px;
+  position: relative;
+    right: -2px;
+    top: 18px;
+}
+
+.favourite {
+  width: 20px;
+  height: 20px;
+  position: relative;
+    left: -5px;
+    top: -10px;
+}
+
+h3 {
+  position: relative;
+    left: 29px;
+    top: 0px;
+}
+
+.card-body {
+  border-radius: 25px;
+  background:whitesmoke;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 250px;
+  height: 100px;
+  position: absolute;
+    bottom: -45px;
+    left: -38px;
+
+}
+
+/*styles for Results page*/
+body {
+  background-color: white;
+}
+
+.imageResults {
+  border-radius: 10px;
+  background-image: url("kugu2m1504735473.jpg");
+  background-position: left top;
+  width: 350px;
+  height: 300px;
+  margin: 30px;
+  position: relative;
+    top: -31px;
+    right: -3px;
+}
+
+h2 {
+  color : white;
+  padding: 30px;
+  position: relative;
+    right: -4px;
+    top: 4px;
+}
+
+.favourite {
+  width: 20px;
+  height: 20px;
+  position: relative;
+    left: -5px;
+    top: -10px;
+}
+
+h5 {
+  position: relative;
+    left: 29px;
+    top: 0px;
+}
+
+.drinkInfobox {
+  border-radius: 25px;
+  background: whitesmoke;
+  margin-bottom: 10px;
+  padding: 20px;
+  width: 280px;
+  height: 358px;
+  position: relative;
+    left: 2px;
+    bottom: -215px;
+}
+
+#button1 {
+  background-color: pink;
+  border-radius: 25px;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  position: relative;
+  left: -110px;
+  top: 233px;
+}
+
+#button2 {
+  background-color: pink;
+  border-radius: 25px;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  position: relative;
+    left: 157px;
+    top: 181px
+}
+
+  /*styles for Search page*/
+  h4 {
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+     position: relative;
+    left: 51px;
+  }
+
+  #background {
+    background-image: url("kugu2m1504735473.jpg");
+  }
+
+  label {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .container {
+    display: flex;
+  }
+
+  .searchText {
+    color: black;
+  }
+
+  .searchbox {
+    justify-content:center;
+    border-radius: 25px;
+    background: whitesmoke;
+    margin-bottom: 10px;
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+    visibility: visible
+  }
+
+  #searchbox1 {
+    position: relative;
+    left: 51px;
+    top: 59px;
+  }
+
+  .searchbox2 {
+    justify-content:center;
+    border-radius: 25px;
+    background: whitesmoke;
+    margin-bottom: 10px;
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    left: 47px;
+    top: -393px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    overflow-x: scroll;
+  }
+
+  .searchbox3 {
+    justify-content:center;
+    border-radius: 25px;
+    background: whitesmoke;
+    margin-bottom: 10px;
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    left: 47px;
+    top: -838px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    overflow-x: scroll;
+  }
+
+  .btnStyle {
+    background-color: pink;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px ;
+    margin-bottom: 20px;
+  }
+  
+  .btnStyle3 {
+    padding: 10px 20px;
+    position: relative;
+      bottom: 62px;
+      left: 16px;
+  }
+
+  .btnStyle4 {
+    padding: 10px 20px;
+    position: relative;
+      bottom: 62px;  
+      left: 27px;
+      
+  }
+
+  .list-element {
+    position: relative;
+    left: -44px;
+  }
+
+  .cate-element {
+    position: relative;
+    left: -44px;
+  }
+
+  .searchimageResults {
+    max-width: 100%;
+    border-radius: 10px;
+    background-position: left top;
+    width: 250px; 
+    height: 250px; 
+    margin: 30px;
+    position: relative;
+    top: -27px;
+    right: 12px; 
+  }
+
+
+

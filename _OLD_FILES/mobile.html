@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Moody Drinks</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="handlebars.min-v4.7.3.js"></script>
+    <link rel="stylesheet" href="css-reset.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="mobile.css" />
+  </head>
+  <body>
+    <div id="outer-container">
+      <div id="inner-container">
+      <header>
+
+        <h1>Welcome back Janice!</h1>
+        <p>How do you feel today? Ready to get a Moody Drink?</p>
+
+        <nav>
+          <ul>
+            <li>Search</li>
+            <li>Try It</li>
+            <li>Favourites</li>
+            <li>History</li>
+          </ul>
+        </nav>
+
+      </header>
+      <section>
+        <div id="page-results" class="viewport active">
+          <div class="results template">
+            {{#each results}}
+            <div class="body-results">
+              <h2>{{this.name}}</h2>
+              {{#each this.ingredients}}
+              <p>
+                <span class="results-measurement">{{this.measurement}}</span> 
+                <span class="results-name">{{this.name}}</span>
+              </p>
+              {{/each}}
+              <h3>Instructions/Steps</h3>
+              {{this.instructions}}
+              <div id="results-shortcut">
+                <button data-type="shortcut" data-page="list-try" data-id="{{this.id}}">Try Later</button>
+                <button data-type="shortcut" data-page="list-fav" data-id="{{this.id}}">Favourite</button>
+              </div>
+            </div>
+            {{/each}}
+          </div>
+        </div>
+      </section>
+      <footer>
+        <ul>
+          <li><button data-page="search"><span class="nav-icon">&#8981;</span><span class="nav-text">Search</span></button></li>
+          <li><button data-page="list-try"><span class="nav-icon">&#127864;</span><span class="nav-text">Try It</span></button></li>
+          <li><button data-page="list-fav"><span class="nav-icon">&#10084;</span><span class="nav-text">Favourites</span></button></li>
+          <li><button data-page="history"><span class="nav-icon">&#128220;</span><span class="nav-text">History</span></button></li>
+        </ul>
+      </footer>
+    </div>
+    <script src="mobile2.js"></script>
+  </body>
+</html>
