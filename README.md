@@ -14,7 +14,7 @@ Moody Drinks is an app to recommend drinks depending on the user's current mood.
 ### Web Link:
 
 To view our demo, visit the link below:
-https://zypherone.github.io/moody-drinks/
+https://cuicuiaaa.github.io/Moody-Drinks/
 
 ### Slides Link:
 
